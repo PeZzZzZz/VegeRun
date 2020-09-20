@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: -1397852194135787987
     second: vegetables2_0
+  - first:
+      213: -2530832364363946782
+    second: vegetables2_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -110,7 +113,7 @@ TextureImporter:
         width: 321
         height: 567
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 14, y: 0, z: 3, w: 0}
       outline: []
       physicsShape: []
@@ -118,6 +121,27 @@ TextureImporter:
       bones: []
       spriteID: d263908e5d4d99ce0800000000000000
       internalID: -1397852194135787987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vegetables2_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 689
+        width: 280
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 25, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e46600af5da0ecd0800000000000000
+      internalID: -2530832364363946782
       vertices: []
       indices: 
       edges: []
