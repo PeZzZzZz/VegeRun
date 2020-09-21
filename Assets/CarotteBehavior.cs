@@ -8,6 +8,8 @@ public class CarotteBehavior : MonoBehaviour
 
     public int value = 1;
     private GameObject UI;
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +26,8 @@ public class CarotteBehavior : MonoBehaviour
 	if(col.gameObject.CompareTag("Player")){
 	   int CarotteUI = int.Parse(UI.GetComponent<Text>().text) + value;
 	   UI.GetComponent<Text>().text = CarotteUI + "";
-	   Destroy(gameObject);
+	   Animator.SetBool("isCollect", true);
+
 	}
     }
 }
